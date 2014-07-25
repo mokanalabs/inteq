@@ -44,7 +44,7 @@ footer {
 
 /* Carousel base class */
 .carousel {
-  height: 630px;
+  height: 600px;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -54,7 +54,7 @@ footer {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 630px;
+  height: 600px;
   background-color: #777;
   background-position: center;
 }

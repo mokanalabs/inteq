@@ -174,7 +174,8 @@ footer {
 
   /* Navbar positioning foo */
   .navbar-wrapper {
-    margin-top: 20px;
+    padding-top: 20px;
+    background-color: rgba(255,255,255,0.5);
   }
   .navbar-wrapper .container {
     padding-right: 15px;

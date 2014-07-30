@@ -12,6 +12,8 @@ body {
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
+  /* background-color: rgba(0,0,0,0.75); */
+  background-color: #222;
   position: absolute;
   top: 0;
   right: 0;
@@ -20,7 +22,7 @@ body {
 }
 
 .navbar-wrapper a {
-  color: #666;
+  color: #FFF;
 }
 
 .navbar-wrapper a:hover, a:focus {
@@ -35,6 +37,7 @@ body {
 .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
+  margin-bottom: 0px;
 }
 .navbar-wrapper .navbar .container {
   width: auto;
@@ -44,8 +47,10 @@ body {
   height: inherit;
   margin-left: 20px;
 }
-.navbar-nav {
-  margin: 60px 0 0 0;
+.navbar-brand .logo {
+  background: url("../images/logos/header-black.png") no-repeat;
+  width: 230px;
+  height: 100px;
 }
 .navbar-nav a {
   font-size: 16px;
@@ -59,6 +64,17 @@ body {
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
   background-color: #00CCB8;
   color: white;
+}
+
+.navbar-toggle {
+  margin-top: 20px;
+  border-color: #333;
+}
+.navbar-toggle:hover, .navbar-toggle:focus {
+  background-color: #333;
+}
+.navbar-toggle .icon-bar {
+  background-color: #fff;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -138,7 +154,7 @@ body {
   left: 10%;
   margin-top: 12px;
   margin-bottom: 12px;
-  line-height: 1.2em;
+  line-height: 1.9em;
 }
 
 .marketing-header .col-lg-2 {
@@ -153,6 +169,24 @@ body {
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
+.marketing .slogan {
+  text-align: center;
+  
+  margin-bottom: 20px;
+}
+.marketing .slogan h2 {
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+.marketing .slogan p {
+  font-size: 20px;
+  font-weight: 100;
+}
+.marketing .slogan hr.divider {
+  height: 0;
+  width: 320px;
+  border-top: 1px solid #CCC;
+}
 .marketing .col-lg-2 {
   margin-bottom: 20px;
   text-align: center;
@@ -310,19 +344,33 @@ footer .social-links > img {
   .navbar-wrapper {
     background-color: rgba(255,255,255,0.5);
   }
+  
+  .navbar-wrapper a {
+    color: #666;
+  }
+  
   .navbar-wrapper .container {
     padding-right: 15px;
     padding-left: 15px;
   }
+  
   .navbar-wrapper .navbar {
     padding-right: 0;
     padding-left: 0;
-  }
-
-  /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
     border-radius: 4px;
-    margin-bottom: 0px;
+  }
+  
+  .navbar-brand .logo {
+    background: url("../images/logos/header-white.png") no-repeat;
+  }
+  
+  .navbar-nav {
+    float: right!important;
+    margin: 60px 0 0 0;
+  }
+  
+  .navbar-toggle {
+    border-color: inherit;
   }
 
   /* Bump up size of carousel content */
@@ -337,10 +385,6 @@ footer .social-links > img {
     line-height: 1.4;
   }
 
-  .marketing-header {
-    margin-bottom: 60px;
-  }
-
   .marketing-header .clients {
     padding-left: 60px;
   }
@@ -350,7 +394,7 @@ footer .social-links > img {
     height: 382px;
     background-size: 559px 382px;
     margin:0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
   }
   
   .featurette-box.bg1, .featurette-box.bg2, .featurette-box.bg3, .featurette-box.bg4, .featurette-box.bg5 {

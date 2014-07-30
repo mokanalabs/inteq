@@ -128,8 +128,8 @@ body {
 /* MARKETING HEADER
 -------------------------------------------------- */
 .marketing-header {
+  margin-bottom: 20px;
   padding: 20px;
-  margin-bottom: 60px;
   color: #FFF;
   background-color: #00CCB8;
 }
@@ -227,39 +227,43 @@ footer .social-links > img {
 }
 
 .featurette-box {
+  width: 370px;
+  height: 253px;
   margin:0 auto;
-  margin-bottom: 100px;
-  width: 559px;
-  height: 382px;
+  margin-bottom: 20px;
   padding: 0px;
-  background-size: cover;
   overflow: hidden;
 }
 
 .featurette-box.bg1 {
   background: url("../images/categories/1.jpg");
+  background-size: 370px 253px;
 }
 
 .featurette-box.bg2 {
   background: url("../images/categories/2.jpg");
+  background-size: 370px 253px;
 }
 
 .featurette-box.bg3 {
   background: url("../images/categories/3.jpg");
+  background-size: 370px 253px;
 }
 
 .featurette-box.bg4 {
   background: url("../images/categories/4.jpg");
+  background-size: 370px 253px;
 }
 
 .featurette-box.bg5 {
   background: url("../images/categories/5.jpg");
+  background-size: 370px 253px;
 }
 
 .featurette-overlay {
-  width: 559px;
-  height: 382px;
-  padding: 160px 20px 0 20px;
+  width: 370px;
+  height: 253px;
+  padding: 110px 20px 0 20px;
   background: rgba(0,0,0,.75);
   text-align: center;
   opacity: 0;
@@ -271,10 +275,10 @@ footer .social-links > img {
 }
 
 .featurette-title {
-  padding: 8px 16px;
+  padding: 6px 12px;
+  font-size: 20px;
   font-weight: 900;
   color: rgba(255,255,255,.85);
-  font-size: 32px;
   text-transform: uppercase;
 }
 
@@ -284,9 +288,9 @@ footer .social-links > img {
 }
 
 .featurette-description {
+  font-size: 12px;
   margin-top: 12px;
   color: rgba(255,255,255,.85);
-  font-size: 16px;
 }
 
 /* Allies
@@ -333,13 +337,45 @@ footer .social-links > img {
     line-height: 1.4;
   }
 
+  .marketing-header {
+    margin-bottom: 60px;
+  }
+
   .marketing-header .clients {
     padding-left: 60px;
+  }
+  
+  .featurette-box {
+    width: 559px;
+    height: 382px;
+    background-size: 559px 382px;
+    margin:0 auto;
+    margin-bottom: 100px;
+  }
+  
+  .featurette-box.bg1, .featurette-box.bg2, .featurette-box.bg3, .featurette-box.bg4, .featurette-box.bg5 {
+    background-size: 559px 382px;
+  }
+
+  .featurette-overlay {
+    width: 559px;
+    height: 382px;
+    padding: 160px 20px 0 20px;
   }
 
   .featurette-heading {
     font-size: 50px;
   }
+  
+  .featurette-title {
+    padding: 8px 16px;
+    font-size: 32px;
+  }
+  
+  .featurette-description {
+    font-size: 16px;
+  }
+
 }
 
 @media (min-width: 992px) {

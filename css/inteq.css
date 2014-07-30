@@ -45,7 +45,7 @@ body {
   margin-left: 20px;
 }
 .navbar-nav {
-  margin: 76px 0 0 0;
+  margin: 60px 0 0 0;
 }
 .navbar-nav a {
   font-size: 16px;
@@ -88,20 +88,19 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 600px;
-  background-color: #777;
   background-position: center;
 }
 
 .carousel .bg1 {
-  background-image: url("../images/banners/banner1.jpg");
+  background-image: url("../images/banners/home1.jpg");
 }
 
 .carousel .bg2 {
-  background-image: url("../images/banners/banner1.jpg");
+  background-image: url("../images/banners/home2.jpg");
 }
 
 .carousel .bg3 {
-  background-image: url("../images/banners/banner1.jpg");
+  background-image: url("../images/banners/home3.jpg");
 }
 
 .carousel-control.left {
@@ -195,13 +194,18 @@ footer a {
 }
 
 footer a:hover, a:focus {
-  color: #CCC;
+  color: #00CCB8;
   text-decoration: none;
 }
 
 footer .copyright {
   margin-top: 50px;
   text-align: center;
+}
+
+footer .social-links > img {
+  margin-top: -4px;
+  margin-right: 8px;
 }
 
 /* Featurettes
@@ -225,18 +229,37 @@ footer .copyright {
 .featurette-box {
   margin:0 auto;
   margin-bottom: 100px;
-  width: 480px;
-  height: 320px;
+  width: 559px;
+  height: 382px;
   padding: 0px;
-  background: url(http://placehold.it/480x320);
   background-size: cover;
   overflow: hidden;
 }
 
+.featurette-box.bg1 {
+  background: url("../images/categories/1.jpg");
+}
+
+.featurette-box.bg2 {
+  background: url("../images/categories/2.jpg");
+}
+
+.featurette-box.bg3 {
+  background: url("../images/categories/3.jpg");
+}
+
+.featurette-box.bg4 {
+  background: url("../images/categories/4.jpg");
+}
+
+.featurette-box.bg5 {
+  background: url("../images/categories/5.jpg");
+}
+
 .featurette-overlay {
-  width: 480px;
-  height: 320px;
-  padding-top: 120px;
+  width: 559px;
+  height: 382px;
+  padding: 160px 20px 0 20px;
   background: rgba(0,0,0,.75);
   text-align: center;
   opacity: 0;
@@ -249,10 +272,10 @@ footer .copyright {
 
 .featurette-title {
   padding: 8px 16px;
-  font-family: Helvetica;
   font-weight: 900;
   color: rgba(255,255,255,.85);
   font-size: 32px;
+  text-transform: uppercase;
 }
 
 .featurette-title span {
@@ -262,7 +285,6 @@ footer .copyright {
 
 .featurette-description {
   margin-top: 12px;
-  font-family: Helvetica;
   color: rgba(255,255,255,.85);
   font-size: 16px;
 }

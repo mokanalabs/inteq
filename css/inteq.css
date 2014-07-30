@@ -174,7 +174,6 @@ footer {
 
   /* Navbar positioning foo */
   .navbar-wrapper {
-    padding-top: 20px;
     background-color: rgba(255,255,255,0.5);
   }
   .navbar-wrapper .container {
@@ -189,6 +188,12 @@ footer {
   /* The navbar becomes detached from the top, so we round the corners */
   .navbar-wrapper .navbar {
     border-radius: 4px;
+    margin-bottom: 0px;
+  }
+  
+  .navbar-brand {
+    height: inherit;
+    padding: inherit;
   }
 
   /* Bump up size of carousel content */

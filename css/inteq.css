@@ -387,6 +387,11 @@ footer .social-links > img {
   .navbar-toggle {
     border-color: inherit;
   }
+  
+  .dropdown-menu {
+	border-width: 0px;
+	border-radius: 0px;
+  }
 
   /* Bump up size of carousel content */
   .carousel-caption {

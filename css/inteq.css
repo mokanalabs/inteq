@@ -294,6 +294,21 @@ footer .social-links > img {
   background-size: 370px 253px;
 }
 
+.featurette-box.bg6 {
+  background: url("../images/categories/6.jpg");
+  background-size: 370px 253px;
+}
+
+.featurette-box.bg7 {
+  background: url("../images/categories/7.jpg");
+  background-size: 370px 253px;
+}
+
+.featurette-box.bg8 {
+  background: url("../images/categories/8.jpg");
+  background-size: 370px 253px;
+}
+
 .featurette-overlay {
   width: 370px;
   height: 253px;
@@ -397,7 +412,7 @@ footer .social-links > img {
     margin-bottom: 30px;
   }
   
-  .featurette-box.bg1, .featurette-box.bg2, .featurette-box.bg3, .featurette-box.bg4, .featurette-box.bg5 {
+  .featurette-box.bg1, .featurette-box.bg2, .featurette-box.bg3, .featurette-box.bg4, .featurette-box.bg5, .featurette-box.bg6, .featurette-box.bg7, .featurette-box.bg8 {
     background-size: 559px 382px;
   }
 

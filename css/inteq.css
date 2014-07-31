@@ -69,6 +69,7 @@ body {
 .navbar-toggle {
   margin-top: 20px;
   border-color: #333;
+  overflow: auto;
 }
 .navbar-toggle:hover, .navbar-toggle:focus {
   background-color: #333;
@@ -270,42 +271,42 @@ footer .social-links > img {
 }
 
 .featurette-box.bg1 {
-  background: url("../images/categories/1.jpg");
+  background: url("../images/categories/cama-hospitalaria.jpg");
   background-size: 370px 253px;
 }
 
 .featurette-box.bg2 {
-  background: url("../images/categories/2.jpg");
+  background: url("../images/categories/laboratorio.jpg");
   background-size: 370px 253px;
 }
 
 .featurette-box.bg3 {
-  background: url("../images/categories/3.jpg");
+  background: url("../images/categories/bolsas-de-sangre.jpg");
   background-size: 370px 253px;
 }
 
 .featurette-box.bg4 {
-  background: url("../images/categories/4.jpg");
+  background: url("../images/categories/monitores.jpg");
   background-size: 370px 253px;
 }
 
 .featurette-box.bg5 {
-  background: url("../images/categories/5.jpg");
+  background: url("../images/categories/insumos.jpg");
   background-size: 370px 253px;
 }
 
 .featurette-box.bg6 {
-  background: url("../images/categories/6.jpg");
+  background: url("../images/categories/bomba-de-infusion.jpg");
   background-size: 370px 253px;
 }
 
 .featurette-box.bg7 {
-  background: url("../images/categories/7.jpg");
+  background: url("../images/categories/cateter.jpg");
   background-size: 370px 253px;
 }
 
 .featurette-box.bg8 {
-  background: url("../images/categories/8.jpg");
+  background: url("../images/categories/servicios.jpg");
   background-size: 370px 253px;
 }
 

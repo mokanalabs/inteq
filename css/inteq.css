@@ -142,6 +142,42 @@ body {
   border-radius: 0px;
 }
 
+/* BANNER
+-------------------------------------------------- */
+
+.banner {
+  height: 600px;
+}
+
+.banner.company {
+  background-image: url("../images/banners/company.jpg");
+  background-position: center;
+}
+
+.banner-caption {
+  position: absolute;
+  right: 15%;
+  top: 320px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.banner-caption h1 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.banner-caption .box {
+  padding: 6px 10px;
+  font-size: 24px;
+  border: rgba(255,255,255,.85) solid 2px;
+}
+
 /* MARKETING HEADER
 -------------------------------------------------- */
 .marketing-header {

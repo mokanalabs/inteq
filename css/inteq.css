@@ -42,7 +42,6 @@ body {
 .navbar-wrapper .navbar .container {
   width: auto;
 }
-
 .navbar>.container .navbar-brand {
   height: inherit;
   margin-left: 20px;
@@ -65,7 +64,6 @@ body {
   background-color: #00CCB8;
   color: white;
 }
-
 .navbar-toggle {
   margin-top: 20px;
   border-color: #333;
@@ -77,7 +75,36 @@ body {
 .navbar-toggle .icon-bar {
   background-color: #fff;
 }
-
+.navbar .lang-selector {
+  float: right!important;
+  margin-top: 20px;
+}
+.navbar .lang-list {
+  list-style: none;
+  padding: 0;
+  margin-left: -60px;
+}
+.navbar .lang-list>li {
+  float: left;
+}
+.navbar .lang-list a {
+  padding-left: 2px; 
+  padding-right: 2px;
+  text-decoration: none;	
+}
+.navbar .lang-list li.active>a {
+  color: white;
+  background-color: #00CCB8;
+}
+.navbar .lang-list li.active>a:hover, .navbar .lang-list li.active>a:focus {
+  color: #00CCB8;
+  background-color: rgba(0,0,0,0);
+}
+.lang-list li + li::before {
+  content: "-";
+  padding-left: 2px; 
+  padding-right: 2px;	
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -156,9 +183,9 @@ body {
 
 .banner-caption {
   position: absolute;
-  right: 15%;
+  right: 10%;
   top: 320px;
-  left: 15%;
+  left: 10%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -174,8 +201,27 @@ body {
 
 .banner-caption .box {
   padding: 6px 10px;
-  font-size: 24px;
+  font-size: 16px;
   border: rgba(255,255,255,.85) solid 2px;
+}
+
+/* MARKETING TITLE
+-------------------------------------------------- */
+.marketing-title {
+  background-color: #00726C;
+}
+
+.marketing-title h3 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  color: white;
+  font-size: 36px;
+  letter-spacing: -2px;
+  text-align: center;
+}
+
+.marketing-title h3 .light {
+  font-weight: 100;
 }
 
 /* MARKETING HEADER
@@ -183,7 +229,7 @@ body {
 .marketing-header {
   margin-bottom: 20px;
   padding: 20px;
-  color: #FFF;
+  color: white;
   background-color: #00CCB8;
 }
 
@@ -194,12 +240,34 @@ body {
   line-height: 1.9em;
 }
 
-.marketing-header .col-lg-2 {
-  padding-left: 0px;
+.marketing-header.diagonal-pattern {
+  background-image: url("../images/backgrounds/diagonal.jpg");
 }
 
-.marketing-header .clients {
-  padding-left: 10px;
+.marketing-header .map {
+  width: 320px;
+  height: 190px;
+  background-size: 320px 190px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../images/banners/world-map.png");
+}
+
+/* MARKETING TABS
+-------------------------------------------------- */
+.marketing-tabs {
+  margin-bottom: 20px;
+  line-height: 60px;
+  color: #FFF;
+  background-color: #00CCB8;
+}
+
+.marketing-tabs li>a {
+  line-height: 50px;
+}
+
+.marketing-tabs a {
+  text-transform: uppercase;
 }
 
 /* MARKETING CONTENT
@@ -441,9 +509,15 @@ footer .social-links > img {
     font-size: 21px;
     line-height: 1.4;
   }
-
-  .marketing-header .clients {
-    padding-left: 60px;
+  
+  .banner-caption .box {
+    font-size: 24px;
+  }
+  
+  .marketing-header .map {
+    width: 960px;
+    height: 570px;
+    background-size: 960px 570px;
   }
   
   .featurette-box {

@@ -7,6 +7,19 @@ body {
   font-family: "europa", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -269,6 +282,30 @@ body {
 .marketing-tabs a {
   text-transform: uppercase;
 }
+.marketing-tabs>.container {
+  width: 970px;
+}
+.nav-tabs {
+  border: 0;
+  width: 720px;
+  margin: 0 auto;
+} 
+.nav-tabs>li {
+  margin: 0;
+}
+.nav-tabs>li>a {
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  color: white;
+  width: 180px;
+  text-align: center;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+  border: 0;
+  background-color: #00726C;
+  color: white;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -276,7 +313,6 @@ body {
 /* Center align the text within the three columns below the carousel */
 .marketing .slogan {
   text-align: center;
-  
   margin-bottom: 20px;
 }
 .marketing .slogan h2 {
@@ -303,6 +339,20 @@ body {
   margin-right: 10px;
   margin-left: 10px;
 }
+.container.tabs {
+  width: 970px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.tab-content h3 {
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.tab-content p {
+  width: 400px;
+  margin: 0 auto;
+} 
 
 /* CUSTOMIZE THE FOOTER
 -------------------------------------------------- */

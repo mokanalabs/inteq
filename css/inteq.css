@@ -282,14 +282,19 @@ body {
 .marketing-tabs a {
   text-transform: uppercase;
 }
-.marketing-tabs>.container {
+.marketing-tabs>.company {
   width: 970px;
+}
+.marketing-tabs>.products {
+  width: 1110px;
 }
 .nav-tabs {
   border: 0;
-  width: 720px;
   margin: 0 auto;
-} 
+}
+.company>.nav-tabs {
+  width: 720px;
+}
 .nav-tabs>li {
   margin: 0;
 }
@@ -300,6 +305,15 @@ body {
   color: white;
   width: 180px;
   text-align: center;
+}
+.products>.nav-tabs>li>a {
+  width: 154px;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 16px 14px;
+}
+.products>.nav-tabs>li>a.sigle-line {
+  padding: 25px 14px;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
   border: 0;
@@ -339,8 +353,7 @@ body {
   margin-right: 10px;
   margin-left: 10px;
 }
-.container.tabs {
-  width: 970px;
+.tabs>.company {
   margin-bottom: 40px;
   text-align: center;
 }
@@ -349,10 +362,27 @@ body {
   margin-top: 40px;
   margin-bottom: 30px;
 }
-.tab-content p {
+.tab-content.products {
+  width: 1000px;
+  margin-right: 72px;
+  margin-left: 72px;
+}
+.tab-content.company p {
   width: 400px;
   margin: 0 auto;
-} 
+}
+.tab-content .featurette-divider {
+  margin: 10px 0;
+}
+
+/* PRODUCTS
+-------------------------------------------------- */
+.bed-1 {
+  width: 480px;
+  height: 320px;
+  background-size: 480px 320px;
+  background-image: url("../images/products/bed-1.jpg");
+}
 
 /* CUSTOMIZE THE FOOTER
 -------------------------------------------------- */
@@ -378,7 +408,6 @@ footer h3 .underline {
 footer a {
   color: #FFF;
   font-size: 15px;
-  
   text-decoration: none;
 }
 

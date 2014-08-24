@@ -1,28 +1,42 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="images/favicon.ico">
-
+  
     <title>Inteq International</title>
-
-	<!-- Load Europa Font -->
+  
+    <!-- Load header.html and footer.html -->
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script>
+    $(function() {
+      $("header").load("template/header.html"); 
+      $("footer").load("template/footer.html");
+      $("#banner").load("template/banner-1.html");
+      $("#tabs").load("template/company-tabs.html");
+      $("#tab-content").load("template/tab-company.html");
+    });
+    </script>
+  
+    <!-- Load Europa Font -->
     <script type="text/javascript" src="//use.typekit.net/rko4kpo.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+  
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="bootstrap/js/ie-emulation-modes-warning.js"></script>
-
+  
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="bootstrap/js/ie10-viewport-bug-workaround.js"></script>
-
+  
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="bootstrap/js/html5shiv.min.js"></script>
@@ -31,224 +45,22 @@
     
     <!-- Custom styles for this template -->
     <link href="css/inteq.css" rel="stylesheet">
-    
-  <style id="holderjs-style" type="text/css"></style></head>
-<!-- NAVBAR
-================================================== -->
-  <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <div class="navbar navbar-static-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.html">
-	            <div class="logo"></div>
-              </a>
-            </div>
-            <div class="lang-selector">
-              <ul class="lang-list">
-                <li class="active"><a href="company.html">ES</a></li>
-                <li><a href="company-en.html">EN</a></li>
-              </ul>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Compañía</a></li>
-                <li class="dropdown">
-                  <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">Productos</a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="index.html">Muebles Hospitalarios</a></li>
-                    <li><a href="index.html">Laboratorio Clínico</a></li>
-                    <li><a href="index.html">Bolsas de sangre</a></li>
-                    <li><a href="index.html">Monitores</a></li>
-                    <li><a href="index.html">Insumos Hospitalarios</a></li>
-                    <li><a href="index.html">Bomba de Infusión</a></li>
-                    <li><a href="index.html">Intervencionismo</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">Servicios</a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="index.html">Soporte y mantenimiento de equipos</a></li>
-                    <li><a href="index.html">Equipos remanufacturados</a></li>
-                  </ul>
-                </li>
-                <li><a href="index.html#contact">Blog</a></li>
-                <li><a href="index.html#contact">Contáctenos</a></li>
-
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="banner company">
-      <div class="container">
-        <div class="banner-caption">
-          <h1>Un equipo de trabajo</h1>
-          <span class="box">con la mejor asesoría en soporte técnico</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="marketing-tabs">
-
-	  <div class="container company">
-	    <!-- Nav tabs -->
-		<ul class="nav nav-tabs" role="tablist">
-		  <li class="active"><a href="#home" role="tab" data-toggle="tab">¿Quiénes somos?</a></li>
-		  <li><a href="#profile" role="tab" data-toggle="tab">Historia</a></li>
-		  <li><a href="#messages" role="tab" data-toggle="tab">Visión</a></li>
-		  <li><a href="#settings" role="tab" data-toggle="tab">Misión</a></li>
-		</ul>
-	  </div>
-	
-	</div><!-- /.marketing-header -->
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-
-	<div class="container tabs">
       
-        <!-- Tab panes -->
-		<div class="tab-content company">
-		  <div class="tab-pane active" id="home">
-		  	<h3>¿Quiénes Somos?</h3>
-		  	<p>Lorem ipsum ad his scripta blandit partiendo, eum fastidii 
-accumsan euripidis in, eum liber hendrerit an. Qui ut wisi 
-vocibus suscipiantur, quo dicit ridens inciderint id. Quo 
-mundi lobortis reformidans eu, legimus senserit defniebas an 
-eos. Eu sit tincidunt incorrupte defnitionem, vis mutat affert 
-percipit cu, eirmod consectetuer signiferumque eu</p>
-			<h3>Lorem ipsum ad his scripta blandit</h3>
-			<div class="row row-centered">
-			  <div class="col-lg-3 col-centered">
-			    <img src="http://placehold.it/200x160">
-			  </div>
-			  <div class="col-lg-3 col-centered">
-			    <img src="http://placehold.it/200x160">
-			  </div>
-			  <div class="col-lg-3 col-centered">
-			    <img src="http://placehold.it/200x160">
-			  </div>
-			</div>
-		  </div><!-- #home -->
-		  
-		  <div class="tab-pane" id="profile">
-		  	<h3>Historia</h3>
-		  	<p>Lorem ipsum ad his scripta blandit partiendo, eum fastidii 
-accumsan euripidis in, eum liber hendrerit an. Qui ut wisi 
-vocibus suscipiantur, quo dicit ridens inciderint id. Quo 
-mundi lobortis reformidans eu, legimus senserit defniebas an 
-eos. Eu sit tincidunt incorrupte defnitionem, vis mutat affert 
-percipit cu, eirmod consectetuer signiferumque eu</p>
-			<h3>Lorem ipsum ad his scripta blandit</h3>
-			<div class="row row-centered">
-			  <div class="col-lg-3 col-centered">
-			    <img src="http://placehold.it/200x160">
-			  </div>
-			  <div class="col-lg-3 col-centered">
-			    <img src="http://placehold.it/200x160">
-			  </div>
-			  <div class="col-lg-3 col-centered">
-			    <img src="http://placehold.it/200x160">
-			  </div>
-			</div>
-		  </div><!-- #profile -->
-		  
-		  <div class="tab-pane" id="messages">
-		  	<h3>Misión</h3>
-		  	<p>La misión de Inteq International es proporcionar instrumentos, dispositivos, materiales y equipos médico quirúrgicos. Contamos con amplia experiencia y con un equipo de trabajo capaz de desarrollar proyectos para suministrar de forma eficiente y oportuna  todos nuestros productos con los mejores estándares de calidad, seguridad y eficiencia y de brindar óptima asesoría y soporte técnico, con una amplia flexibilidad y disponibilidad.</p>
-			<h3>Lorem ipsum ad his scripta blandit</h3>
-			<div class="row row-centered">
-			  <div class="col-lg-3 col-centered">
-			    <img src="http://placehold.it/200x160">
-			  </div>
-			  <div class="col-lg-3 col-centered">
-			    <img src="http://placehold.it/200x160">
-			  </div>
-			  <div class="col-lg-3 col-centered">
-			    <img src="http://placehold.it/200x160">
-			  </div>
-			</div>
-		  </div><!-- #messages -->
-		  
-		  <div class="tab-pane" id="settings">
-		  	<h3>Visión</h3>
-		  	<p>En el año 2020 Inteq International será reconocida como empresa líder en la distribución de instrumentos, dispositivos, materiales y equipos médico quirúrgicos, siendo sus principales distintivas su eficiencia, calidad, precisión, innovación, alta tecnología, asesoría y su valoración al cliente, reconociéndose como ejemplo de integridad empresarial internacional.</p>
-			<h3>Lorem ipsum ad his scripta blandit</h3>
-			<div class="row row-centered">
-			  <div class="col-lg-3 col-centered">
-			    <img src="http://placehold.it/200x160">
-			  </div>
-			  <div class="col-lg-3 col-centered">
-			    <img src="http://placehold.it/200x160">
-			  </div>
-			  <div class="col-lg-3 col-centered">
-			    <img src="http://placehold.it/200x160">
-			  </div>
-			</div>
-		  </div><!-- #settings -->
-		</div>
+    <style id="holderjs-style" type="text/css"></style>
+  </head>
 
-    </div><!-- /.container -->
+  <body>
+    <header><!-- header.html --></header>
+    <div id="banner" class="banner company"><!-- banner-1.html --></div>
+    <div id="tabs" class="marketing-tabs"><!-- category-tabs.html --></div>
+  	<div id="tab-content"  class="container tabs"><!-- tab-categories.html --></div>
+    <footer><!-- footer.html --></footer>
     
-    <!-- FOOTER -->
-    <footer>
-      <div class="container">
-      <div class="row">
-        <div class="col-lg-3">
-          <h3><span class="underline">Compañía</span></h3>
-          <p><a href="#">¿Quiénes somos?</a></p>
-          <p><a href="#">Historia</a></p>
-          <p><a href="#">Misión</a></p>
-          <p><a href="#">Visión</a></p>
-        </div>
-        <div class="col-lg-3">
-          <h3><span class="underline">Líneas de Negocio</span></h3>
-          <p><a href="products.html">Productos</a></p>
-          <p><a href="#">Servicios</a></p>
-        </div>
-        <div class="col-lg-3">
-          <h3><span class="underline">Más de Nosotros</span></h3>
-          <p><a href="#">Contáctenos</a></p>
-          <p>
-          	<a class="social-links" href="http://www.facebook.com">
-	          <img class="img" src="images/icons/fb.png" alt="Facebook" style="width: 31px; height: 32px;" />Facebook
-            </a>
-          </p>
-          <p>
-            <a class="social-links" href="http://www.twitter.com">
-	          <img class="img" src="images/icons/tw.png" alt="Twitter" style="width: 31px; height: 32px;" />Twitter
-            </a>
-          </p>
-        </div>
-        
-      </div>
-      <div class="row copyright">
-        <p>© 2014 Inteq International. Todos los derechos reservados.</p>
-      </div>
-      </div>
-    </footer>
-
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="bootstrap/js/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="bootstrap/js/docs.min.js"></script>
-  
-
-<div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" title="" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" data-original-title="Copy to clipboard">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1404857344316">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         <embed src="/assets/flash/ZeroClipboard.swf?noCache=1404857344316" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit">                </object></div></body></html>
+  </body>
+</html>

@@ -1,36 +1,42 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="images/favicon.ico">
-	
+  
     <title>Inteq International</title>
-	
-	<!-- Load header.html and footer.html -->
-	<script src="bootstrap/js/jquery.min.js"></script>
-  	<script>
-  	$(function(){
-      $("#header").load("template/header.html"); 
+  
+    <!-- Load header.html and footer.html -->
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script>
+    $(function() {
+      $("header").load("template/header.html"); 
+      $("footer").load("template/footer.html");
+      $("#carousel").load("template/carousel.html");
+      $("#world-map").load("template/world-map.html");
+      $("#categories").load("template/categories.html");
     });
-  	</script>
-	
-	<!-- Load Europa Font -->
+    </script>
+  
+    <!-- Load Europa Font -->
     <script type="text/javascript" src="//use.typekit.net/rko4kpo.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+  
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="bootstrap/js/ie-emulation-modes-warning.js"></script>
-
+  
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="bootstrap/js/ie10-viewport-bug-workaround.js"></script>
-
+  
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="bootstrap/js/html5shiv.min.js"></script>
@@ -39,217 +45,22 @@
     
     <!-- Custom styles for this template -->
     <link href="css/inteq.css" rel="stylesheet">
-    
-  <style id="holderjs-style" type="text/css"></style></head>
-<!-- NAVBAR
-================================================== -->
+      
+    <style id="holderjs-style" type="text/css"></style>
+  </head>
+
   <body>
-    <div id="header"><!-- Loaded from template --></div>
-
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item bg1 active">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Equipos médicos<br/><span class="bold">quirúrgicos</span><br/>de última<br/>tecnología.</h1>
-              <p><a class="btn btn-lg btn-primary" href="index.html" role="button">Ver más</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item bg2">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Equipos médicos<br/><span class="bold">quirúrgicos</span><br/>de última<br/>tecnología.</h1>
-              <p><a class="btn btn-lg btn-primary" href="index.html" role="button">Ver más</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item bg3">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Equipos médicos<br/><span class="bold">quirúrgicos</span><br/>de última<br/>tecnología.</h1>
-              <p><a class="btn btn-lg btn-primary" href="index.html" role="button">Ver más</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="index.html#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="index.html#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->
-
-	<div class="marketing-title">
-	  <div class="container">
-        <h3><span class="light">Presencia</span> mundial</h3>
-	  </div>
-    </div>
-
-    <div class="marketing-header diagonal-pattern">
-	  <div class="container">
-	    <div class="map">
-	    </div>
-	  </div>
-	</div><!-- /.marketing-header -->
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-
-	<div class="container marketing">
-
-      <div class="row slogan">
-        <h2>Inteq International</h2>
-        <p>dedication and precision</p>
-        <hr class="divider" />
-      </div>
-
-      <!-- START THE FEATURETTES -->
-
-      <div class="row featurette">
-        <div class="col-md-6">
-          <div class="featurette-box bg1" onclick="location.href='index.html'">
-            <div class="featurette-overlay">
-          	  <div class="featurette-title"><span>Muebles Hospitalarios</span></div>
-          	  <div class="featurette-description"><p>Camas, camillas, escaleras, carros de emergencia y atriles.</p></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="featurette-box bg2" onclick="location.href='index.html'">
-            <div class="featurette-overlay">
-          	  <div class="featurette-title"><span>Laboratorio Clínico</span></div>
-          	  <div class="featurette-description"><p>Tubos de muestras, pruebas diagnósticas rápidas.</p></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row featurette">
-        <div class="col-md-6">
-          <div class="featurette-box bg3" onclick="location.href='index.html'">
-            <div class="featurette-overlay">
-          	  <div class="featurette-title"><span>Bolsas de Sangre</span></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="featurette-box bg4" onclick="location.href='index.html'">
-            <div class="featurette-overlay">
-          	  <div class="featurette-title"><span>Monitores</span></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="row featurette">
-        <div class="col-md-6">
-          <div class="featurette-box bg5" onclick="location.href='index.html'">
-            <div class="featurette-overlay">
-          	  <div class="featurette-title"><span>Insumos Hospitalarios</span></div>
-          	  <div class="featurette-description"><p>Jeringas, guantes, ropa limpia y estéril, tapabocas y polainas.</p></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="featurette-box bg6" onclick="location.href='index.html'">
-            <div class="featurette-overlay">
-          	  <div class="featurette-title"><span>Bomba de Infusión</span></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="row featurette">
-        <div class="col-md-6">
-          <div class="featurette-box bg7" onclick="location.href='index.html'">
-            <div class="featurette-overlay">
-          	  <div class="featurette-title"><span>Intervencionismo</span></div>
-          	  <div class="featurette-description"><p>Catéteres, introductores, guías, otros.</p></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="featurette-box bg8" onclick="location.href='index.html'">
-            <div class="featurette-overlay">
-          	  <div class="featurette-title"><span>Servicios</span></div>
-          	  <div class="featurette-description"><p>Soporte y mantenimiento de equipos. Equipos remanufacturados.</p></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- /END THE FEATURETTES -->
-
-    </div><!-- /.container -->
+    <header><!-- header.html --></header>
+    <div id="carousel" class="carousel slide" data-ride="carousel"><!-- carousel.html --></div>
+    <div id="world-map" class="marketing-title"><!-- world-map.html --></div>
+  	<div id="categories" class="container marketing"><!-- categories.html --></div>
+    <footer><!-- footer.html --></footer>
     
-    <!-- FOOTER -->
-    <footer>
-      <div class="container">
-      <div class="row">
-        <div class="col-lg-3">
-          <h3><span class="underline">Compañía</span></h3>
-          <p><a href="#">¿Quiénes somos?</a></p>
-          <p><a href="#">Historia</a></p>
-          <p><a href="#">Misión</a></p>
-          <p><a href="#">Visión</a></p>
-        </div>
-        <div class="col-lg-3">
-          <h3><span class="underline">Líneas de Negocio</span></h3>
-          <p><a href="products.html">Productos</a></p>
-          <p><a href="#">Servicios</a></p>
-        </div>
-        <div class="col-lg-3">
-          <h3><span class="underline">Más de Nosotros</span></h3>
-          <p><a href="#">Contáctenos</a></p>
-          <p>
-          	<a class="social-links" href="http://www.facebook.com">
-	          <img class="img" src="images/icons/fb.png" alt="Facebook" style="width: 31px; height: 32px;" />Facebook
-            </a>
-          </p>
-          <p>
-            <a class="social-links" href="http://www.twitter.com">
-	          <img class="img" src="images/icons/tw.png" alt="Twitter" style="width: 31px; height: 32px;" />Twitter
-            </a>
-          </p>
-        </div>
-        
-      </div>
-      <div class="row copyright">
-        <p>© 2014 Inteq International. Todos los derechos reservados.</p>
-      </div>
-      </div>
-    </footer>
-
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="bootstrap/js/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="bootstrap/js/docs.min.js"></script>
-  
-
-	<div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" title="" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" data-original-title="Copy to clipboard">
-	  <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">
-	    <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1404857344316">
-	    <param name="allowScriptAccess" value="sameDomain">
-	    <param name="scale" value="exactfit">
-	    <param name="loop" value="false">
-	    <param name="menu" value="false">
-	    <param name="quality" value="best">
-	    <param name="bgcolor" value="#ffffff">
-	    <param name="wmode" value="transparent">
-	    <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">
-		<embed src="/assets/flash/ZeroClipboard.swf?noCache=1404857344316" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit">
-	  </object>
-	</div>
   </body>
 </html>

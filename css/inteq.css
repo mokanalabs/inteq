@@ -257,7 +257,7 @@ body {
   background-image: url("../images/backgrounds/diagonal.jpg");
 }
 
-.marketing-header .map {
+.marketing-header .world-map {
   width: 320px;
   height: 190px;
   background-size: 320px 190px;
@@ -593,7 +593,7 @@ footer .social-links > img {
     font-size: 24px;
   }
   
-  .marketing-header .map {
+  .marketing-header .world-map {
     width: 960px;
     height: 570px;
     background-size: 960px 570px;

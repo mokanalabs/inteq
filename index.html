@@ -6,9 +6,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="images/favicon.ico">
-
+	
     <title>Inteq International</title>
-
+	
+	<!-- Load header.html and footer.html -->
+	<script src="bootstrap/js/jquery.min.js"></script>
+  	<script>
+  	$(function(){
+      $("#header").load("template/header.html"); 
+    });
+  	</script>
+	
 	<!-- Load Europa Font -->
     <script type="text/javascript" src="//use.typekit.net/rko4kpo.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -36,61 +44,7 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <div class="navbar navbar-static-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.html">
-	            <div class="logo"></div>
-              </a>
-            </div>
-            <div class="lang-selector">
-              <ul class="lang-list">
-                <li class="active"><a href="index.html">ES</a></li>
-                <li><a href="index-en.html">EN</a></li>
-              </ul>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="company.html">Compañía</a></li>
-                <li class="dropdown">
-                  <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">Productos</a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="index.html">Muebles Hospitalarios</a></li>
-                    <li><a href="index.html">Laboratorio Clínico</a></li>
-                    <li><a href="index.html">Bolsas de sangre</a></li>
-                    <li><a href="index.html">Monitores</a></li>
-                    <li><a href="index.html">Insumos Hospitalarios</a></li>
-                    <li><a href="index.html">Bomba de Infusión</a></li>
-                    <li><a href="index.html">Intervencionismo</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">Servicios</a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="index.html">Soporte y mantenimiento de equipos</a></li>
-                    <li><a href="index.html">Equipos remanufacturados</a></li>
-                  </ul>
-                </li>
-                <li><a href="index.html#contact">Blog</a></li>
-                <li><a href="index.html#contact">Contáctenos</a></li>
-
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
+    <div id="header"><!-- Loaded from template --></div>
 
     <!-- Carousel
     ================================================== -->
@@ -283,4 +237,19 @@
     <script src="bootstrap/js/docs.min.js"></script>
   
 
-<div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" title="" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" data-original-title="Copy to clipboard">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1404857344316">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         <embed src="/assets/flash/ZeroClipboard.swf?noCache=1404857344316" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit">                </object></div></body></html>
+	<div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" title="" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" data-original-title="Copy to clipboard">
+	  <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">
+	    <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1404857344316">
+	    <param name="allowScriptAccess" value="sameDomain">
+	    <param name="scale" value="exactfit">
+	    <param name="loop" value="false">
+	    <param name="menu" value="false">
+	    <param name="quality" value="best">
+	    <param name="bgcolor" value="#ffffff">
+	    <param name="wmode" value="transparent">
+	    <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">
+		<embed src="/assets/flash/ZeroClipboard.swf?noCache=1404857344316" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit">
+	  </object>
+	</div>
+  </body>
+</html>

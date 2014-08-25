@@ -370,6 +370,7 @@ body {
   width: 1000px;
   margin-right: 72px;
   margin-left: 72px;
+  margin-bottom: 20px;
 }
 .tab-content.company p {
   width: 400px;
@@ -378,16 +379,47 @@ body {
 .tab-content .featurette-divider {
   margin: 10px 0;
 }
-
-/* PRODUCTS
--------------------------------------------------- */
-.bed-1 {
-  width: 480px;
-  height: 320px;
-  background-size: 480px 320px;
-  background-image: url("../images/products/bed-1.jpg");
+.pagination {
+  margin: 0;
+  border-radius: 0;
 }
-
+.pagination-label {
+  text-align: right;
+  padding-right: 0;
+  line-height: 32px;
+  margin-right: -12px;
+}
+.pagination-label span {
+  padding: 7px 10px;
+  color: white;
+  background-color: #00CCB8;
+}
+.pagination>a,
+.pagination>span {
+  border-color: white;
+}
+.pagination>.active>a, .pagination>.active>a:hover, .pagination>.active>a:focus,
+.pagination>.active>span, .pagination>.active>span:hover, .pagination>.active>span:focus {
+  background-color: #00CCB8;
+  border-color: white;
+}
+.pagination>li>a,
+.pagination>li>span {
+  border-width: 0;
+  margin-left: 4px;
+  color: white;
+  background-color: #666;
+}
+.pagination>li:first-child>a,
+.pagination>li:first-child>span {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.pagination>li:last-child>a,
+.pagination>li:last-child>span {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
 /* CUSTOMIZE THE FOOTER
 -------------------------------------------------- */
 

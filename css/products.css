@@ -1,11 +1,13 @@
-/* BEDS
+/* PRODUCTS
 -------------------------------------------------- */
-.bed {
+.product {
   width: 480px;
   height: 320px;
   background-size: 480px 320px;
 }
 
+/* BEDS
+-------------------------------------------------- */
 .bed-1 {
   background-image: url("../images/products/beds/bed-1.jpg");
 }
@@ -85,4 +87,23 @@
 .bed-20 {
   background-image: url("../images/products/beds/bed-20.jpg");
 }
+
+/* MONITORS
+-------------------------------------------------- */
+.monitor-1 {
+  background-image: url("../images/products/monitors/monitor-1.jpg");
+}
+
+.monitor-2 {
+  background-image: url("../images/products/monitors/monitor-2.jpg");
+}
+
+.monitor-3 {
+  background-image: url("../images/products/monitors/monitor-3.jpg");
+}
+
+.monitor-4 {
+  background-image: url("../images/products/monitors/monitor-4.jpg");
+}
+
 

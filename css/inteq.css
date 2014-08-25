@@ -57,12 +57,13 @@ body {
 }
 .navbar>.container .navbar-brand {
   height: inherit;
-  margin-left: 20px;
+  margin-left: -20px;
 }
 .navbar-brand .logo {
   background: url("../images/logos/header-black.png") no-repeat;
-  width: 230px;
-  height: 100px;
+  width: 180px;
+  height: 78px;
+  background-size: 180px 78px;
 }
 .navbar-nav a {
   font-size: 16px;
@@ -78,8 +79,10 @@ body {
   color: white;
 }
 .navbar-toggle {
-  margin-top: 20px;
+  margin-top: 48px;
+  margin-right: 0;
   border-color: #333;
+  border-radius: 0;
   overflow: auto;
 }
 .navbar-toggle:hover, .navbar-toggle:focus {
@@ -90,20 +93,25 @@ body {
 }
 .navbar .lang-selector {
   float: right!important;
-  margin-top: 20px;
 }
 .navbar .lang-list {
   list-style: none;
   padding: 0;
-  margin-left: -72px;
+  margin-left: -120px;
+  margin-top: -60px;
+  font-size: 20px;
 }
 .navbar .lang-list>li {
   float: left;
 }
 .navbar .lang-list a {
-  padding-left: 2px; 
-  padding-right: 2px;
-  text-decoration: none;	
+  display: block;
+  padding: 0px 6px;
+  height: 34px;
+  line-height: 32px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #333;
 }
 .navbar .lang-list li.active>a {
   color: white;
@@ -113,11 +121,7 @@ body {
   color: #00CCB8;
   background-color: rgba(0,0,0,0);
 }
-.lang-list li + li::before {
-  content: "-";
-  padding-left: 2px; 
-  padding-right: 2px;	
-}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -559,8 +563,15 @@ footer .social-links > img {
     border-radius: 4px;
   }
   
+  .navbar>.container .navbar-brand {
+    margin-left: 20px;
+  }
+  
   .navbar-brand .logo {
     background: url("../images/logos/header-white.png") no-repeat;
+    width: 230px;
+    height: 100px;
+    background-size: 230px 100px;
   }
   
   .navbar-nav {
@@ -573,8 +584,27 @@ footer .social-links > img {
   }
   
   .dropdown-menu {
-	border-width: 0px;
-	border-radius: 0px;
+	  border-width: 0px;
+    border-radius: 0px;
+  }
+  
+  .navbar .lang-list {
+    margin-left: -72px;
+    margin-top: 20px;
+    font-size: inherit;
+  }
+
+  .navbar .lang-list a {
+    display: inline;
+    padding-left: 2px; 
+    padding-right: 2px;
+    border: 0;
+  }
+  
+  .lang-list li + li::before {
+    content: "-";
+    padding-left: 2px; 
+    padding-right: 2px;	
   }
 
   /* Bump up size of carousel content */

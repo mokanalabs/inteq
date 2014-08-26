@@ -11,15 +11,15 @@
   
     <title>Inteq International</title>
   
-    <!-- Load header.html and footer.html -->
     <script src="bootstrap/js/jquery.min.js"></script>
+    
     <script>
     $(function() {
       $("header").load("template/header.html"); 
       $("footer").load("template/footer.html");
       $("#banner").load("template/banner-1.html");
-      $("#tabs").load("template/categories/furniture/tabs.html");
-      $("#tab-content").load("template/categories/furniture/tab-content-pag-1.html");
+      $("#tabs").load("template/company/tabs-3.html");
+      $("#tab-content").load("template/company/tab-content-3.html");
     });
     </script>
   
@@ -45,16 +45,15 @@
     
     <!-- Custom styles for this template -->
     <link href="css/inteq.css" rel="stylesheet">
-    <link href="css/products.css" rel="stylesheet">
-    
+      
     <style id="holderjs-style" type="text/css"></style>
   </head>
 
   <body>
     <header><!-- header.html --></header>
     <div id="banner" class="banner company"><!-- banner-1.html --></div>
-    <div id="tabs" class="marketing-tabs"><!-- categories/furniture/tabs.html --></div>
-  	<div id="tab-content"  class="container tabs"><!-- categories/furniture/tab-content-pag-1.html --></div>
+    <div id="tabs" class="marketing-tabs company"><!-- template/company/tabs-3.html --></div>
+  	<div id="tab-content"  class="container tabs"><!-- template/company/tab-content-3.html --></div>
     <footer><!-- footer.html --></footer>
     
     <!-- Bootstrap core JavaScript

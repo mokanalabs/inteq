@@ -297,13 +297,14 @@ body {
   margin: 0 auto;
 }
 .company>.nav-tabs {
-  width: 540px;
+  width: 720px;
 }
 .nav-tabs>li {
   margin: 0;
 }
 .nav-tabs>li>a {
   margin: 0;
+  padding: 10px 10px;
   border: 0;
   border-radius: 0;
   color: white;
@@ -381,6 +382,7 @@ body {
 .tab-content.company p {
   width: 400px;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 .tab-content .featurette-divider {
   margin: 10px 0;

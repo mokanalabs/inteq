@@ -1,86 +1,23 @@
 body {
+  margin: 0;
   color: #5a5a5a;
   font-family: "europa", "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
 }
 a, a:hover, a:focus, a:visited {
   text-decoration: none;
 }
-.container {
-  width: 1170px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.navbar-wrapper {
+header {
+  margin: 10px;
   background-color: rgba(255,255,255,0.5);
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
-}
-.navbar-wrapper .navbar {
-  padding-right: 0;
-  padding-left: 0;
-  border-radius: 4px;
-  margin-bottom: 0px;
-}
-.navbar-wrapper .navbar .container {
-  width: auto;
-}
-.navbar-wrapper .container {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.navbar-static-top {
-  z-index: 1000;
-}
-.navbar {
-  position: relative;
-  min-height: 50px;
-}
-.navbar>.container .navbar-brand {
-  margin-left: 20px;
-  height: inherit;
 }
 .navbar-brand .logo {
-  background: url("http://mokanalabs.github.io/inteq/images/logos/header-white.png") no-repeat;
+  background: url("../images/logos/header-white.png") no-repeat;
   width: 230px;
   height: 100px;
   background-size: 230px 100px;
-}
-.nav {
-  padding-left: 0;
-  list-style: none;
-}
-.navbar-nav {
-  float: right!important;
-  margin: 60px 0 0 0;
-}
-.navbar-nav>li {
-  float: left;
-}
-.nav>li>a {
-  padding: 10px 25px;
-}
-.navbar-wrapper a {
-  color: #666;
-  font-size: 16px;
-}
-.nav>li>a:hover, .nav>li>a:focus {
-  color: #00CCB8;
-  background-color: none;
-}
-.banner {
-  height: 130px;
-}
-.banner.company {
-  background-image: url("http://mokanalabs.github.io/inteq/images/banners/company.jpg");
-  background-position: center;
+  padding: 15px;
 }
 footer {
   padding-top: 20px;

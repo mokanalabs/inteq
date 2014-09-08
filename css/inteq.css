@@ -428,6 +428,15 @@ body {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
+
+/* QUOTE
+-------------------------------------------------- */
+.contact-form {
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* CUSTOMIZE THE FOOTER
 -------------------------------------------------- */
 

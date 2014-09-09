@@ -17,9 +17,8 @@
     $(function() {
       $("header").load("template/header.html"); 
       $("footer").load("template/footer.html");
-      $("#banner").load("template/banner-1.html");
-      $("#tabs").load("template/products/furniture/tabs.html");
-      $("#tab-content").load("template/products/furniture/tab-content-pag-2.html");
+      $("#carousel").load("template/contact/carousel.html");
+      $("#products").load("template/contact/products.html");
     });
     </script>
   
@@ -45,16 +44,14 @@
     
     <!-- Custom styles for this template -->
     <link href="css/inteq.css" rel="stylesheet">
-    <link href="css/products.css" rel="stylesheet">
-    
+      
     <style id="holderjs-style" type="text/css"></style>
   </head>
 
   <body>
     <header><!-- header.html --></header>
-    <div id="banner" class="banner products"><!-- banner-1.html --></div>
-    <div id="tabs" class="title-bar"><!-- template/products/furniture/tabs.html --></div>
-  	<div id="tab-content"  class="container tabs"><!-- template/products/furniture/tab-content-pag-2.html --></div>
+    <div id="carousel" class="carousel slide" data-ride="carousel"><!-- contact/carousel.html --></div>
+  	<div id="products" class="container marketing"><!-- contact/products.html --></div>
     <footer><!-- footer.html --></footer>
     
     <!-- Bootstrap core JavaScript

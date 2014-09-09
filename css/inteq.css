@@ -127,13 +127,13 @@ body {
 
 /* Carousel base class */
 .carousel {
-  height: 600px;
+  height: 500px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   text-align: left;
-  right: 10%;
-  left: 10%;
+  left: 12.5%;
+  right: 12.5%;
   top: 140px;
   z-index: 10;
 }
@@ -145,10 +145,13 @@ body {
 .carousel-caption h1 .bold {
   font-weight: 900;
 }
+.carousel-caption h2 {
+  margin-bottom: 20px;
+}
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 600px;
+  height: 500px;
   background-position: center;
 }
 
@@ -162,6 +165,18 @@ body {
 
 .carousel .bg3 {
   background-image: url("../images/banners/home3.jpg");
+}
+
+.carousel .bg4 {
+  background-image: url("../images/banners/location1.jpg");
+}
+
+.carousel .bg5 {
+  background-image: url("../images/banners/location1.jpg");
+}
+
+.carousel-control {
+  top: 20%;
 }
 
 .carousel-control.left {
@@ -190,18 +205,26 @@ body {
 -------------------------------------------------- */
 
 .banner {
-  height: 600px;
+  height: 500px;
 }
 
 .banner.company {
   background-image: url("../images/banners/company.jpg");
   background-position: center;
 }
+.banner.products {
+  background-image: url("../images/banners/products.jpg");
+  background-position: center;
+}
+.banner.services {
+  background-image: url("../images/banners/services.jpg");
+  background-position: center;
+}
 
 .banner-caption {
   position: absolute;
+  top: 240px;
   right: 10%;
-  top: 320px;
   left: 10%;
   z-index: 10;
   padding-top: 20px;
@@ -290,7 +313,7 @@ body {
   width: 970px;
 }
 .title-bar>.products {
-  width: 1110px;
+  width: 988px;
 }
 .nav-tabs {
   border: 0;
@@ -383,6 +406,7 @@ body {
   width: 400px;
   margin: 0 auto;
   margin-bottom: 20px;
+  text-align: justify;
 }
 .tab-content .featurette-divider {
   margin: 10px 0;
@@ -427,6 +451,35 @@ body {
 .pagination>li:last-child>span {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+}
+.about-pictures {
+  background-color: rgba(102, 102, 102, 0.1);
+  padding: 20px;
+}
+.about-container {
+  width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-container h4 {
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.about-pictures .bg1 {
+  background: url("../images/company/company1.jpg");
+}
+.about-pictures .bg2 {
+  background: url("../images/company/company2.jpg");
+}
+.about-pictures .bg3 {
+  background: url("../images/company/company3.jpg");
+}
+.about-pictures .picture {
+  background-size: 250px 201px;
+  width: 250px;
+  height: 201px;
+  float: left;
 }
 
 /* QUOTE
@@ -658,7 +711,7 @@ footer .social-links > img {
 
   /* Bump up size of carousel content */
   .carousel-caption {
-  	top: 200px;
+  	/* top: 200px; */
   }
   
   .carousel-caption p {
@@ -668,14 +721,23 @@ footer .social-links > img {
     line-height: 1.4;
   }
   
+  .carousel-caption .city {
+    padding: 10px 16px;
+    background-color: rgba(60, 60, 60, 0.75);
+    font-size: 20px;
+    position: absolute;
+    left: 40px;
+    top: 280px;
+  }
+  
   .banner-caption .box {
     font-size: 24px;
   }
   
   .marketing-header .world-map {
-    width: 960px;
-    height: 570px;
-    background-size: 960px 570px;
+    width: 720px;
+    height: 427px;
+    background-size: 720px 427px;
   }
   
   .featurette-box {

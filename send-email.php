@@ -4,7 +4,7 @@ echo "0";
 if(isset($_POST['submit'])) {
   echo "1";
   $subject = $_POST['subject'];
-  $to = "oscardemoya@gmail.com";
+  $to = "inteqinternational@gmail.com";
   $from = $_POST['email'];
   echo "2";
   $msg = "NAME: "  . $_POST['name'] . "<br \>\n";

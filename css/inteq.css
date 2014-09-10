@@ -60,7 +60,7 @@ body {
   margin-left: -20px;
 }
 .navbar-brand .logo {
-  background: url("../images/logos/header-black.png") no-repeat;
+  background: url("../images/logos/header-black.svg") no-repeat;
   width: 180px;
   height: 78px;
   background-size: 180px 78px;
@@ -527,9 +527,29 @@ footer .copyright {
   text-align: center;
 }
 
-footer .social-links > img {
-  margin-top: -4px;
-  margin-right: 8px;
+footer .circle {
+  border: 2px white solid;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+footer a:hover > .circle, a:focus > .circle {
+  border-color: #00CCB8;
+}
+
+footer i {
+  font-size: 18px !important;
+}
+
+footer i.fa-facebook {
+  padding-top: 5px;
+  padding-left: 8px;
+}
+
+footer i.fa-twitter {
+  padding-top: 5px;
+  padding-left: 5px;
 }
 
 /* Featurettes
@@ -670,7 +690,7 @@ footer .social-links > img {
   }
   
   .navbar-brand .logo {
-    background: url("../images/logos/header-white.png") no-repeat;
+    background: url("../images/logos/header-white.svg") no-repeat;
     width: 230px;
     height: 100px;
     background-size: 230px 100px;

@@ -1,31 +1,31 @@
         <form id="contact-form" class="contact-form" action="send-email.php" method="post">
           <fieldset>                      
             <p>
-              <label for="name">Empresa o persona*</label>
-              <input name="name" id="name" type="text" class="form-poshytip" title="Enter your full name" />
+              <label for="name">Empresa o persona<span class="required">*</span></label>
+              <input name="name" id="name" type="text" title="Ingrese su nombre completo." />
             </p>
             <p>
-              <label for="id">Cédula o NIT*</label>
-              <input name="id" id="id" type="text" class="form-poshytip" title="Enter your website" />
+              <label for="id">Cédula o NIT<span class="required">*</span></label>
+              <input name="id" id="id" type="text" title="Ingrese su cédula o NIT." />
             </p>
             <p>
-              <label for="phone">Teléfono</label>
-              <input name="phone" id="phone" type="text" class="form-poshytip" title="Enter your website" />
+              <label for="phone">Teléfono<span class="required">*</span></label>
+              <input name="phone" id="phone" type="text" title="Ingrese su teléfono." />
             </p>
             <p>
-              <label for="email" >Email*</label>
-              <input name="email"  id="email" type="text" class="form-poshytip" title="Enter your email address" />
+              <label for="email" >Email<span class="required">*</span></label>
+              <input name="email"  id="email" type="text" title="Enter your dirección de correo." />
             </p>
             <p>
-              <label for="comments">Productos requeridos y cantidad*</label>
+              <label for="comments" class="full">Productos requeridos y cantidad<span class="required">*</span></label>
               <br />
-              <textarea  name="comments" id="comments" rows="5" cols="20" class="form-poshytip" title="Enter your comments"></textarea>
+              <textarea  name="comments" id="comments" rows="5" cols="20" title="Ingrese los productos en los que se encuentra interesado y las cantidades."></textarea>
             </p>
             
             <!-- send mail configuration -->
             <input type="hidden" value="Cotización Inteq" name="subject" id="subject" />
         
             <!-- ENDS send mail configuration -->
-            <p><input type="submit" value="Send" name="submit" id="submit" /> <span id="error" class="warning">Message</span></p>
+            <p><input type="submit" value="Enviar" name="submit" id="submit" /> <span id="error" class="warning"></span></p>
           </fieldset>
         </form>

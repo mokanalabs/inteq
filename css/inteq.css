@@ -2,6 +2,12 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+/* 
+  COLORS
+  - light green: #00CCB8;
+  - dark green: #00726C;
+*/
+
 body {
   color: #5a5a5a;
   font-family: "europa", "Helvetica Neue", "Helvetica", sans-serif;
@@ -18,6 +24,9 @@ body {
     text-align:left;
     /* inline-block space fix */
     margin-right:-4px;
+}
+.right-border {
+  border-right: 1px solid #EEE;
 }
 
 /* CUSTOMIZE THE NAVBAR
@@ -160,11 +169,11 @@ body {
 }
 
 .carousel .bg2 {
-  background-image: url("../images/banners/home2.jpg");
+  background-image: url("../images/banners/home6.jpg");
 }
 
 .carousel .bg3 {
-  background-image: url("../images/banners/home3.jpg");
+  background-image: url("../images/banners/home5.jpg");
 }
 
 .carousel .bg4 {
@@ -219,6 +228,10 @@ body {
 .banner.services {
   background-image: url("../images/banners/services.jpg");
   background-position: center;
+}
+.banner.quote {
+  background-image: url("../images/banners/quote.jpg");
+  background-position: center;  
 }
 
 .banner-caption {
@@ -485,9 +498,31 @@ body {
 /* QUOTE
 -------------------------------------------------- */
 .contact-form {
-  width: 540px;
+  width: 400px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.contact-form label {
+  width: 184px;
+}
+
+.contact-form input[type="text"] {
+  width: 200px;
+}
+
+.contact-form label.full {
+  width: inherit;
+}
+
+.contact-form .required {
+  color: #00CCB8;
+}
+
+.contact-form textarea {
+  width: 390px;
+  border-color: #DDDDDD; 
 }
 
 /* CUSTOMIZE THE FOOTER
@@ -529,8 +564,8 @@ footer .copyright {
 
 footer .circle {
   border: 2px white solid;
-  width: 30px;
-  height: 30px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
 }
 
@@ -539,16 +574,19 @@ footer a:hover > .circle, a:focus > .circle {
 }
 
 footer i {
-  font-size: 18px !important;
+  font-size: 14px !important;
+}
+
+footer i.fa {
+  margin-top: -4px;
+  padding-top: 4px;
 }
 
 footer i.fa-facebook {
-  padding-top: 5px;
-  padding-left: 8px;
+  padding-left: 7px;
 }
 
 footer i.fa-twitter {
-  padding-top: 5px;
   padding-left: 5px;
 }
 
@@ -650,6 +688,62 @@ footer i.fa-twitter {
   font-size: 12px;
   margin-top: 12px;
   color: rgba(255,255,255,.85);
+}
+
+/* CONTACT
+------------------------- */
+.form.contact {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.form.contact form {
+  margin-top: 20px;  
+}
+
+.form .headquarter {
+  margin-left: 40px;
+}
+
+.form .headquarter h4 {
+  color: #00CCB8;
+}
+
+.form .headquarter address {
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.headquarter .fa {
+  width: 16px;
+  text-align: center;
+  color: #00726C;
+}
+
+.headquarter .fa-map-marker {
+  font-size: 16px !important;
+}
+
+.headquarter .fa-building {
+  font-size: 12px !important;
+}
+
+.headquarter .fa-mobile {
+  font-size: 20px !important;
+}
+
+.headquarter .fa-envelope-O {
+  font-size: 14px !important;
+}
+
+.headquarter a {
+  color: #00726C;
+  text-decoration: none;
+}
+
+.headquarter a:hover, .headquarter a:focus {
+  color: #00CCB8;
+  text-decoration: none;
 }
 
 /* Allies

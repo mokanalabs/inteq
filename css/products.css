@@ -106,4 +106,26 @@
   background-image: url("../images/products/monitors/monitor-4.jpg");
 }
 
+.monitor-5 {
+  background-image: url("../images/products/monitors/monitor-5.jpg");
+}
+
+.monitor-center-1 {
+  background-image: url("../images/products/monitors/monitor-center-1.jpg");
+}
+
+.infusion-pump-1 {
+  background-image: url("../images/products/monitors/infusion-pump-1.jpg");
+}
+
+.anesthetic-1 {
+  background-image: url("../images/products/monitors/anesthetic-1.jpg");
+}
+
+/* EMERGENCY CARTS
+-------------------------------------------------- */
+.emergency-cart-1 {
+  background-image: url("../images/products/emergency-carts/emergency-cart-1.jpg");
+}
+
 

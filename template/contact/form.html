@@ -1,0 +1,50 @@
+      <div class="row featurette">
+        <div class="col-md-6 right-border">
+          <form id="contact-form" class="contact-form" action="send-email.php" method="post">
+            <fieldset>                      
+              <p>
+                <label for="name">Empresa o persona<span class="required">*</span></label>
+                <input name="name" id="name" type="text" title="Ingrese su nombre completo." />
+              </p>
+              <p>
+                <label for="phone">Teléfono<span class="required">*</span></label>
+                <input name="phone" id="phone" type="text" title="Ingrese su teléfono." />
+              </p>
+              <p>
+                <label for="email" >Email<span class="required">*</span></label>
+                <input name="email"  id="email" type="text" title="Enter your dirección de correo." />
+              </p>
+              <p>
+                <label for="comments" class="full">Comentarios<span class="required">*</span></label>
+                <br />
+                <textarea  name="comments" id="comments" rows="5" cols="20" title="Ingrese los productos en los que se encuentra interesado y las cantidades."></textarea>
+              </p>
+              
+              <!-- send mail configuration -->
+              <input type="hidden" value="Cotización Inteq" name="subject" id="subject" />
+          
+              <!-- ENDS send mail configuration -->
+              <p><input type="submit" value="Enviar" name="submit" id="submit" /> <span id="error" class="warning"></span></p>
+            </fieldset>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="headquarter">
+            <h4>Inteq International</h4>
+            <address>
+              <i class="fa fa-map-marker"></i> 2332 Galiano Street 2nd Floor<br />
+              <i class="fa fa-building"></i> Coral Gables, FL 33134<br />
+              <i class="fa fa-mobile"></i> PBX: <a href="tel:+13057287024">305-728-7024</a><br />
+              <i class="fa fa-mobile"></i> Direct Line: <a href="tel:+13054545938">305-454-5938</a><br />
+            </address>
+            <h4>Despofarma (Distribuidor autorizado)</h4>
+            <address>
+              <i class="fa fa-map-marker"></i> Carrera 69 G No. 70 – 40<br />
+              <i class="fa fa-building"></i> Bogotá, Colombia<br />
+              <i class="fa fa-mobile"></i> Tel. <a href="tel:+5714884662">4884662</a><br />
+              <i class="fa fa-mobile"></i> Cel. <a href="tel:+573003053581">3003053581</a><br />
+              <i class="fa fa-envelope-o"></i> <a href="mailto:info@deposfarma.com">info@deposfarma.com</a><br />
+            </address>
+          </div>          
+        </div>
+      </div>

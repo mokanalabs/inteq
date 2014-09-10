@@ -32,7 +32,7 @@ header {
   float: left;
 }
 .navbar-brand .logo {
-  background: url("../images/logos/header-white.png") no-repeat;
+  background: url("../images/logos/header-white.svg") no-repeat;
   width: 230px;
   height: 100px;
   background-size: 230px 100px;

@@ -19,7 +19,40 @@ div {
   display: block;
 }
 header {
+}
+.banner-wrapper {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.banner {
+  z-index: 902;
+  background-image: url("http://2.bp.blogspot.com/-bqUoS1LAtvU/VBEaL56PbAI/AAAAAAAAAAM/QU3WW1zWBcU/s1600/home1.jpg");
+  background-position: center;
+  height: 260px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.banner h2 {
+  font-family: "europa", "Helvetica Neue", "Helvetica", sans-serif !important;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 160px;
+  margin-bottom: 0px;
+}
+.banner p {
+  font-size: 20px;
+  margin-top: 0px;
+}
+.banner-overlay {
+  position: absolute;
+  z-index: 10000;
   background-color: rgba(255,255,255,0.5);
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .container {
   width: 1170px;
@@ -32,15 +65,133 @@ header {
   float: left;
 }
 .navbar-brand .logo {
-  background: url("../images/logos/header-white.svg") no-repeat;
+  background: url("http://1.bp.blogspot.com/-IikStW21l8U/VBEayzmewzI/AAAAAAAAAAY/1gWvl-VPnIQ/s1600/header-white.png") no-repeat;
   width: 230px;
   height: 100px;
   background-size: 230px 100px;
 }
+
+/* Body */
+
+.date-header span {
+  background-color: #00CCB8;
+  padding: 0.4em 0.6em;
+  letter-spacing: inherit;
+}
+h3.post-title {
+  font-family: "europa", "Helvetica Neue", "Helvetica", sans-serif !important;
+  text-transform: uppercase;
+}
+h3.post-title a, h3.post-title a:link, h3.post-title a:visited {
+  color: #666;
+}
+h3.post-title a:hover, h3.post-title a:focus {
+  color: #00CCB8;
+}
+.post-body span {
+  font-family: "europa", "Helvetica Neue", "Helvetica", sans-serif !important;  
+}
+.post-footer {
+  background-color: rgba(102, 102, 102, 0.1);
+}
+.blog-pager {
+  background: none;
+}
+.post-footer-line span a, .post-footer-line span a:link, .post-footer-line span a:visited,
+.blog-pager a, .blog-pager a:link, .blog-pager a:visited,
+.feed-links a, .feed-links a:link, .feed-links a:visited {
+  color: #999;
+}
+.post-footer-line span a:hover, .post-footer-line span a:focus
+.blog-pager a:hover, .blog-pager a:focus,
+.feed-links a:hover, .feed-links a:focus {
+  color: #00CCB8;
+}
+
+/* Footer*/
+
 footer {
   padding-top: 20px;
   padding-bottom: 10px;
   font-weight: 100;
-  color: #FFF;
+  color: white;
   background-color: #00726C;
+}
+footer h3 .underline {
+  padding-bottom: 3px;
+  border-bottom: 2px #FFF solid;
+}
+footer a, footer a:link, footer a:visited {
+  color: #FFF;
+  font-size: 15px;
+  text-decoration: none;
+}
+footer a:hover, a:focus {
+  color: #00CCB8;
+  text-decoration: none;
+}
+footer .copyright {
+  margin-top: 50px;
+  text-align: center;
+}
+footer .circle {
+  border: 2px white solid;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+footer a:hover > .circle, a:focus > .circle {
+  border-color: #00CCB8;
+}
+footer i {
+  font-size: 14px !important;
+}
+footer i.fa {
+  margin-top: -4px;
+  padding-top: 4px;
+}
+footer i.fa-facebook {
+  padding-left: 7px;
+}
+footer i.fa-twitter {
+  padding-left: 5px;
+}
+
+/* ------ Bootstrap ------ */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
 }

@@ -181,7 +181,7 @@ body {
 }
 
 .carousel .bg5 {
-  background-image: url("../images/banners/location1.jpg");
+  background-image: url("../images/banners/location2.jpg");
 }
 
 .carousel-control {
@@ -764,7 +764,26 @@ footer i.fa-twitter {
     background-color: rgba(255,255,255,0.5);
   }
   
+  header.dark .navbar-wrapper {
+    background-color: rgba(255,255,255,0.25);
+  }
+  
+  header.dark .navbar-brand .logo {
+    background: url("../images/logos/header-black.svg") no-repeat;
+    width: 230px;
+    height: 100px;
+    background-size: 230px 100px;
+  }
+  
   .navbar-wrapper a {
+    color: #666;
+  }
+  
+  header.dark .navbar-wrapper a {
+    color: white;
+  }
+  
+  header.dark .navbar-wrapper .dropdown-menu a {
     color: #666;
   }
   
@@ -837,7 +856,8 @@ footer i.fa-twitter {
   
   .carousel-caption .city {
     padding: 10px 16px;
-    background-color: rgba(60, 60, 60, 0.75);
+    color: #00CCB8;
+    background-color: rgba(255, 255, 255, 0.25);
     font-size: 20px;
     position: absolute;
     left: 40px;

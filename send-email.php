@@ -1,11 +1,13 @@
 <?php
 
 echo "0";
+require_once 'Mail.php';
+
 if(isset($_POST['submit'])) {
   echo "1";
-  $subject = $_POST['subject'];
   $to = "inteqinternational@gmail.com";
   $from = $_POST['email'];
+  $subject = $_POST['subject'];
   echo "2";
   $msg = "NAME: "  . $_POST['name'] . "<br \>\n";
   $msg .= "ID: "  . $_POST['id'] . "<br \>\n";

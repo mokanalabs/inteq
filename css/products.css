@@ -1,131 +1,74 @@
 /* PRODUCTS
 -------------------------------------------------- */
-.product {
-  width: 480px;
-  height: 320px;
-  background-size: 480px 320px;
-}
+.product { width: 480px; height: 320px; background-size: 480px 320px; }
+.col-lg-6 ul { margin-left: -20px; }
 
-/* BEDS
+/* FURNITURE
 -------------------------------------------------- */
-.bed-1 {
-  background-image: url("../images/products/beds/bed-1.jpg");
-}
+.bed-1 { background-image: url("../images/products/furniture/bed-1.jpg"); }
+.bed-2 { background-image: url("../images/products/furniture/bed-2.jpg"); }
+.bed-3 { background-image: url("../images/products/furniture/bed-3.jpg"); }
+.bed-4 { background-image: url("../images/products/furniture/bed-4.jpg"); }
+.bed-5 { background-image: url("../images/products/furniture/bed-5.jpg"); }
+.bed-6 { background-image: url("../images/products/furniture/bed-6.jpg"); }
+.bed-7 { background-image: url("../images/products/furniture/bed-7.jpg"); }
+.bed-8 { background-image: url("../images/products/furniture/bed-8.jpg"); }
+.bed-9 { background-image: url("../images/products/furniture/bed-9.jpg"); }
+.bed-10 { background-image: url("../images/products/furniture/bed-10.jpg"); }
+.bed-11 { background-image: url("../images/products/furniture/bed-11.jpg"); }
+.bed-12 { background-image: url("../images/products/furniture/bed-12.jpg"); }
+.bed-13 { background-image: url("../images/products/furniture/bed-13.jpg"); }
+.bed-14 { background-image: url("../images/products/furniture/bed-14.jpg"); }
+.bed-15 { background-image: url("../images/products/furniture/bed-15.jpg"); }
+.bed-16 { background-image: url("../images/products/furniture/bed-16.jpg"); }
+.bed-17 { background-image: url("../images/products/furniture/bed-17.jpg"); }
+.bed-18 { background-image: url("../images/products/furniture/bed-18.jpg"); }
+.bed-19 { background-image: url("../images/products/furniture/bed-19.jpg"); }
+.bed-20 { background-image: url("../images/products/furniture/bed-20.jpg"); }
+.emergency-cart-1 { background-image: url("../images/products/furniture/emergency-cart-1.jpg"); }
+.emergency-cart-2 { background-image: url("../images/products/furniture/emergency-cart-2.jpg"); }
+.infant-bed-1 { background-image: url("../images/products/furniture/infant-bed-1.jpg"); }
+.iv-stand-1 { background-image: url("../images/products/furniture/iv-stand-1.jpg"); }
+.step-stool-1 { background-image: url("../images/products/furniture/step-stool-1.jpg"); }
+.step-stool-2 { background-image: url("../images/products/furniture/step-stool-2.jpg"); }
 
-.bed-2 {
-  background-image: url("../images/products/beds/bed-2.jpg");
-}
+/* LABORATORY
+-------------------------------------------------- */
+.blood-tubes-1 { background-image: url("../images/products/laboratory/blood-tubes-1.jpg"); }
+.glucometer-1 { background-image: url("../images/products/laboratory/glucometer-1.jpg"); }
 
-.bed-3 {
-  background-image: url("../images/products/beds/bed-3.jpg");
-}
-
-.bed-4 {
-  background-image: url("../images/products/beds/bed-4.jpg");
-}
-
-.bed-5 {
-  background-image: url("../images/products/beds/bed-5.jpg");
-}
-
-.bed-6 {
-  background-image: url("../images/products/beds/bed-6.jpg");
-}
-
-.bed-7 {
-  background-image: url("../images/products/beds/bed-7.jpg");
-}
-
-.bed-8 {
-  background-image: url("../images/products/beds/bed-8.jpg");
-}
-
-.bed-9 {
-  background-image: url("../images/products/beds/bed-9.jpg");
-}
-
-.bed-10 {
-  background-image: url("../images/products/beds/bed-10.jpg");
-}
-
-.bed-11 {
-  background-image: url("../images/products/beds/bed-11.jpg");
-}
-
-.bed-12 {
-  background-image: url("../images/products/beds/bed-12.jpg");
-}
-
-.bed-13 {
-  background-image: url("../images/products/beds/bed-13.jpg");
-}
-
-.bed-14 {
-  background-image: url("../images/products/beds/bed-14.jpg");
-}
-
-.bed-15 {
-  background-image: url("../images/products/beds/bed-15.jpg");
-}
-
-.bed-16 {
-  background-image: url("../images/products/beds/bed-16.jpg");
-}
-
-.bed-17 {
-  background-image: url("../images/products/beds/bed-17.jpg");
-}
-
-.bed-18 {
-  background-image: url("../images/products/beds/bed-18.jpg");
-}
-
-.bed-19 {
-  background-image: url("../images/products/beds/bed-19.jpg");
-}
-
-.bed-20 {
-  background-image: url("../images/products/beds/bed-20.jpg");
-}
+/* BLOOD BANK
+-------------------------------------------------- */
+.blood-bag-1 { background-image: url("../images/products/blood-bank/blood-bag-1.jpg"); }
+.blood-bag-2 { background-image: url("../images/products/blood-bank/blood-bag-2.jpg"); }
+.blood-bag-3 { background-image: url("../images/products/blood-bank/blood-bag-3.jpg"); }
+.blood-bag-4 { background-image: url("../images/products/blood-bank/blood-bag-4.jpg"); }
+.blood-bag-4 { background-image: url("../images/products/blood-bank/blood-bag-4.jpg"); }
+.blood-collection-set-1 { background-image: url("../images/products/blood-bank/blood-collection-set-1.jpg"); }
+.blood-transfusion-set-1 { background-image: url("../images/products/blood-bank/blood-transfusion-set-1.jpg"); }
 
 /* MONITORS
 -------------------------------------------------- */
-.monitor-1 {
-  background-image: url("../images/products/monitors/monitor-1.jpg");
-}
+.anesthetic-1 { background-image: url("../images/products/monitors/anesthetic-1.jpg"); }
+.infusion-pump-1 { background-image: url("../images/products/monitors/infusion-pump-1.jpg"); }
+.infusion-pump-2 { background-image: url("../images/products/monitors/infusion-pump-2.jpg"); }
+.monitor-1 { background-image: url("../images/products/monitors/monitor-1.jpg"); }
+.monitor-2 { background-image: url("../images/products/monitors/monitor-2.jpg"); }
+.monitor-3 { background-image: url("../images/products/monitors/monitor-3.jpg"); }
+.monitor-4 { background-image: url("../images/products/monitors/monitor-4.jpg"); }
+.monitor-5 { background-image: url("../images/products/monitors/monitor-5.jpg"); }
+.monitor-center-1 { background-image: url("../images/products/monitors/monitor-center-1.jpg"); }
 
-.monitor-2 {
-  background-image: url("../images/products/monitors/monitor-2.jpg");
-}
-
-.monitor-3 {
-  background-image: url("../images/products/monitors/monitor-3.jpg");
-}
-
-.monitor-4 {
-  background-image: url("../images/products/monitors/monitor-4.jpg");
-}
-
-.monitor-5 {
-  background-image: url("../images/products/monitors/monitor-5.jpg");
-}
-
-.monitor-center-1 {
-  background-image: url("../images/products/monitors/monitor-center-1.jpg");
-}
-
-.infusion-pump-1 {
-  background-image: url("../images/products/monitors/infusion-pump-1.jpg");
-}
-
-.anesthetic-1 {
-  background-image: url("../images/products/monitors/anesthetic-1.jpg");
-}
-
-/* EMERGENCY CARTS
+/* SUPPLIES
 -------------------------------------------------- */
-.emergency-cart-1 {
-  background-image: url("../images/products/emergency-carts/emergency-cart-1.jpg");
-}
+.surgical-disposables-1 { background-image: url("../images/products/supplies/surgical-disposables-1.jpg"); }
+.syringe-1 { background-image: url("../images/products/supplies/syringe-1.jpg"); }
+.syringe-2 { background-image: url("../images/products/supplies/syringe-2.jpg"); }
+
+/* INTERVENTIONISM & HAEMODIALYSIS
+-------------------------------------------------- */
+.catheter-1 { background-image: url("../images/products/interventionism/catheter-1.jpg"); }
+.haemodialysis-catheter-1 { background-image: url("../images/products/interventionism/haemodialysis-catheter-1.jpg"); }
+.fistula-needles-1 { background-image: url("../images/products/interventionism/fistula-needles-1.jpg"); }
 
 
